@@ -2,6 +2,7 @@
   --bg: #ffffff;
   --text: #111111;
   --muted: #737373;
+  --rule: #e5e5e5;
   --accent: #2846d6;
   color-scheme: light dark;
 }
@@ -11,6 +12,7 @@
     --bg: #111111;
     --text: #eeeeee;
     --muted: #8f8f8f;
+    --rule: #333333;
     --accent: #8ea2ff;
   }
 }
@@ -119,6 +121,14 @@ h3 {
   margin: 0 0 0.5rem;
 }
 
-strong {
-  font-weight: 600;
+.subrole {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--rule);
+}
+
+.subrole h4 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+  font-weight: 500;
 }
