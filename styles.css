@@ -24,9 +24,19 @@ body {
 }
 
 main {
-  max-width: 34rem;
+  max-width: 44rem;
   margin: 0 auto;
-  padding: 18vh 1.5rem 6rem;
+  padding: 4rem 1.5rem 5rem;
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 17px;
+  }
+
+  main {
+    padding-top: 6rem;
+  }
 }
 
 h1,
